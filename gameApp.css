@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.image{
+    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-memphis-abstract-portfolio-pink-playful-picture-image_1347361.jpg");
+    background-size: cover;
+    
+}
+#heading{
+    color: rgb(59, 23, 93);
+    background-image: url("https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg");
+    height: 5rem;
+    line-height: 5rem;
+    
+
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.choice:hover{
+    opacity: 0.5;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+img:hover{
+    border: 5px solid black;
+}
+.choices{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 3rem;
+}
+#result{
+    background-color: rgb(68, 65, 65);
+    color: beige;
+    display: inline;
+    padding: 1.75rem;
+    font-size: 2rem;
+}
+.result-box{
+    
+    margin-top: 2.5rem;
+}
